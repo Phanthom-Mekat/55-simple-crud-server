@@ -11,8 +11,9 @@ app.use(express.json());
 // jahidulhossainmekat
 // mzul65IUYXbbJHLS
 
+const uri='mongodb://localhost:27017'
 
-const uri = "mongodb+srv://jahidulhossainmekat:mzul65IUYXbbJHLS@cluster0.zhb6u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// const uri = "mongodb+srv://jahidulhossainmekat:mzul65IUYXbbJHLS@cluster0.zhb6u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
